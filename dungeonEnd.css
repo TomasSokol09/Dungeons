@@ -1,0 +1,12 @@
+body {
+    background-color: #000000;
+}
+p {
+    font-size: 50px;
+    color: #ffffff;
+    position: absolute;
+    font-family: Arial;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
