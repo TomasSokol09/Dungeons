@@ -1,0 +1,237 @@
+img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+body {
+    background-image: url("floorDesign.png");
+    background-repeat: repeat;
+    background-size: 200px 200px;
+    border: 30px solid;
+    border-image: url("wallDesign.png") 80 repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 25px;
+    font-family: Arial;
+    color: #ffffff;
+}
+
+#doors1 {
+    position: fixed;
+    background-image: url("doorDesign.png");
+    background-size: cover;
+    top: 0;
+    left: 1000px;
+    width: 100px;
+    height: 40px;
+    z-index: 10;
+}
+
+#dragon {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+
+#dragonHit {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    z-index: 9;
+}
+
+#fireball1 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 450px;
+    left: 420px;
+    z-index: 10;
+    rotate: -45deg;
+}
+
+#fireball2 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 450px;
+    left: 420px;
+    z-index: 10;
+    rotate: -90deg;
+}
+
+#fireball3 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 450px;
+    left: 420px;
+    z-index: 10;
+    rotate: -180deg;
+}
+
+#fireball4 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 450px;
+    left: 420px;
+    z-index: 10;
+    rotate: 135deg;
+}
+
+#fireball5 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 450px;
+    left: 420px;
+    z-index: 10;
+    rotate: 90deg;
+}
+#fireball6 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 450px;
+    left: 420px;
+    z-index: 10;
+}
+
+#fireball12 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 450px;
+    left: 420px;
+    z-index: 10;
+    rotate: -70deg;
+}
+
+#fireball22 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 450px;
+    left: 420px;
+    z-index: 10;
+    rotate: -135deg;
+}
+
+#fireball32 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 450px;
+    left: 420px;
+    z-index: 10;
+    rotate: 40deg;
+}
+
+#fireball42 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 450px;
+    left: 420px;
+    z-index: 10;
+    rotate: 180deg;
+}
+
+#fireball52 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 450px;
+    left: 420px;
+    z-index: 10;
+    rotate: 100deg;
+}
+#fireball62 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 450px;
+    left: 420px;
+    z-index: 10;
+    rotate: -20deg;
+}
+
+#homingFireball {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 450px;
+    left: 420px;
+    z-index: 12;
+}
+
+#gameOver {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: "Segoe Script";
+}
+
+#canHit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 25px;
+}
+
+#portal {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+
+#portalText {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#heart1 {
+    position: absolute;
+    top: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+#heart2 {
+    position: absolute;
+    top: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+#heart3 {
+    position: absolute;
+    top: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+footer {
+    background-color: darkslategray;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+}
