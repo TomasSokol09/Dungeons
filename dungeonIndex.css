@@ -1,0 +1,164 @@
+img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+body {
+    background-image: url("floorDesign.png");
+    background-repeat: repeat;
+    background-size: 200px 200px;
+    border: 30px solid;
+    border-image: url("wallDesign.png") 80 repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 25px;
+    font-family: Arial;
+    color: #ffffff;
+}
+
+#wall1 {
+    background-image: url("wallDesign.png");
+    background-repeat: repeat;
+    background-size: 200px 200px;
+    position: absolute;
+    width: 50px;
+    height: 300px;
+    top: 0;
+    left: 300px;
+}
+
+#wall2 {
+    background-image: url("wallDesign.png");
+    background-repeat: repeat;
+    background-size: 200px 200px;
+    position: absolute;
+    width: 50px;
+    height: 315px;
+    top: 500px;
+    left: 300px;
+}
+
+#chestClosed {
+    position: absolute;
+    top: 350px;
+    left: 1550px;
+    width: 150px;
+    height: 150px;
+}
+
+#chestOpeningText {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#redChestOpeningText {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#redChestInvalidOpeningText {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+#chestRewards {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+#redKey {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#redChestClosed {
+    position: absolute;
+    top: 100px;
+    left: 1550px;
+    width: 150px;
+    height: 150px;
+}
+
+#chestOpened {
+    position: absolute;
+    top: 350px;
+    left: 1550px;
+    width: 150px;
+    height: 150px;
+}
+
+#redChestOpened {
+    position: absolute;
+    top: 100px;
+    left: 1550px;
+    width: 150px;
+    height: 150px;
+}
+
+#doors1 {
+    position: fixed;
+    background-image: url("doorDesign.png");
+    background-size: 100px 100px;
+    top: 760px;
+    left: 1000px;
+    width: 100px;
+    height: 40px;
+    z-index: 10;
+}
+
+#unlockableDoor1 {
+    position: fixed;
+    background-image: url("goldenDoorDesign.png");
+    background-size: 200px 200px;
+    background-position: 49% center;
+    top: 300px;
+    left: 295px;
+    width: 60px;
+    height: 200px;
+}
+
+#chestRewards1 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+#chestRewards2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+footer {
+    background-color: darkslategray;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+}
